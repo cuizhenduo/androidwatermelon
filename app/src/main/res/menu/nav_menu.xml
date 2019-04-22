@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">  <!--组中所有菜单项只能单选-->
+        <item
+            android:id="@+id/nav_light"
+            android:icon="@mipmap/light"
+            android:title="光照控制"/>
+        <item
+            android:id="@+id/nav_tem"
+            android:icon="@mipmap/tem"
+            android:title="温度控制"/>
+        <item
+            android:id="@+id/nav_mois"
+            android:icon="@mipmap/mois"
+            android:title="湿度控制"/>
+
+    </group>
+</menu>
